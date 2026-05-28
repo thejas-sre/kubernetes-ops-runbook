@@ -1,0 +1,9 @@
+apiVersion: v2
+name: trade-signal-api
+description: Helm chart for trade-signal-api — trading signal processing service
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+maintainers:
+  - name: Thejas Manjunath
+    email: thejas.m2897@gmail.com

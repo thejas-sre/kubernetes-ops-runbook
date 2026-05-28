@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: trade-signal-api-service
+  labels:
+    app: trade-signal-api
+spec:
+  selector:
+    app: trade-signal-api
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: ClusterIP
